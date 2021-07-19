@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a597d964-f29c-4df6-a663-062e4a2405c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../chp7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp7/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a597d964-f29c-4df6-a663-062e4a2405c7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +58,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build customer_log_main.go">
+    <configuration name="go build customer_log_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="chp8" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/customer_log_main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build log_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="chp8" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build customer_log_main.go" />
         <item itemvalue="Go Build.go build log_main.go" />
       </list>
     </recent_temporary>
@@ -94,22 +101,22 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1632387775550">
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1632399480444">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632387775550" />
-    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1632387775549">
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632399480444" />
+    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1632399480443">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.center/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632387775549" />
-    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1632387775548">
+    <state width="1878" height="287" key="GridCell.Tab.0.center/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632399480443" />
+    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1632399480442">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.left/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632387775548" />
-    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1632387775550">
+    <state width="1878" height="287" key="GridCell.Tab.0.left/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632399480442" />
+    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1632399480444">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.right/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632387775550" />
+    <state width="1878" height="287" key="GridCell.Tab.0.right/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632399480444" />
     <state x="-1451" y="65" key="SettingsEditor" timestamp="1632387652259">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>

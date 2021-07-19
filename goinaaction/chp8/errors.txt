@@ -1,0 +1,1 @@
+ERROR: 2021/09/23 20:18:01 customer_log_main.go:60: Something has failed
