@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b53a6853-9927-4e49-b50e-de8ba5cd79aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../goinaaction/chp2/a1_search_match/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../goinaaction/chp2/a1_search_match/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../goinaaction/chp2/a1_search_match/hello_world.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../goinaaction/chp2/a1_search_match/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../goinaaction/chp2/a1_search_match/search/search.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
