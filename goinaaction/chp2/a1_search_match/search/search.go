@@ -14,3 +14,9 @@
 @==============================================@
 */
 package search
+
+import "fmt"
+
+func search() {
+	fmt.Printf("search")
+}
