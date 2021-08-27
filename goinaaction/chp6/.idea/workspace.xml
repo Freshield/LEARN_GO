@@ -38,6 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1yCmwF9UdWMGRWt0ZBbJjo4A1Uy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -59,14 +62,39 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager" selected="Go Build.go build goroutine.go">
+  <component name="RunManager" selected="Go Build.go build atomic.go">
+    <configuration name="go build atomic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="chp6" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/atomic.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build chp6" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="chp6" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/atomic.go" />
+      <package value="chp6" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="chp6" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/goroutine.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build race.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="chp6" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/race.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -80,6 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build atomic.go" />
+        <item itemvalue="Go Build.go build chp6" />
+        <item itemvalue="Go Build.go build race.go" />
         <item itemvalue="Go Build.go build goroutine.go" />
         <item itemvalue="Go Build.go build sliceTime.go" />
       </list>
@@ -100,26 +131,29 @@
       </map>
     </option>
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1631772919726">
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom" timestamp="1630133340749">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1631772919726" />
-    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1631772919725">
+    <state width="1878" height="264" key="GridCell.Tab.0.bottom/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1630133340749" />
+    <state width="1878" height="264" key="GridCell.Tab.0.center" timestamp="1630133340748">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.center/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1631772919725" />
-    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1631772919725">
+    <state width="1878" height="264" key="GridCell.Tab.0.center/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1630133340748" />
+    <state width="1878" height="264" key="GridCell.Tab.0.left" timestamp="1630133340747">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.left/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1631772919725" />
-    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1631772919725">
+    <state width="1878" height="264" key="GridCell.Tab.0.left/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1630133340747" />
+    <state width="1878" height="264" key="GridCell.Tab.0.right" timestamp="1630133340748">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.right/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1631772919725" />
-    <state x="-1451" y="65" key="SettingsEditor" timestamp="1631764238824">
+    <state width="1878" height="264" key="GridCell.Tab.0.right/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1630133340748" />
+    <state x="-1451" y="65" key="SettingsEditor" timestamp="1630132840906">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state x="-1451" y="65" key="SettingsEditor/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1631764238824" />
+    <state x="-1451" y="65" key="SettingsEditor/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1630132840906" />
   </component>
 </project>
