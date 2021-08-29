@@ -29,6 +29,5 @@ func main() {
 	a.Email = "bill@email.com"
 
 	fmt.Println(a)
-
 }
 
