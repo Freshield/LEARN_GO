@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager" selected="Go Build.go build listing35.go">
+  <component name="RunManager" selected="Go Build.go build funcSet.go">
+    <configuration name="go build funcSet.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="chp5" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/funcSet.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="chp5" />
       <working_directory value="$PROJECT_DIR$" />
@@ -25,14 +33,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="chp5" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/struct.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="chp5" />
       <working_directory value="$PROJECT_DIR$" />
@@ -43,11 +43,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build funcSet.go" />
         <item itemvalue="Go Build.go build listing35.go" />
         <item itemvalue="Go Build.go build listing34.go" />
         <item itemvalue="Go Build.go build type.go" />
         <item itemvalue="Go Build.go build func.go" />
-        <item itemvalue="Go Build.go build struct.go" />
       </list>
     </recent_temporary>
   </component>
