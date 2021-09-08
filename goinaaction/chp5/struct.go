@@ -49,5 +49,5 @@ func main() {
 		level: "super",
 	}
 	fmt.Println(fred)
-	
+
 }
