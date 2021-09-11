@@ -34,8 +34,7 @@ func main() {
 	fmt.Println(value, exists)
 	value = colors["Blue"]
 	fmt.Println(value)
-
-
+	
 	for key, value := range dict1 {
 		fmt.Println(key, value)
 	}
