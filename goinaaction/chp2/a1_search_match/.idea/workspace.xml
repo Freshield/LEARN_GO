@@ -24,7 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85d7b839-da36-4fc4-a0af-a8504fe2ee5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../studygolang/chp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../studygolang/chp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -187,9 +187,9 @@
       <screen x="0" y="25" width="1344" height="815" />
     </state>
     <state width="1302" height="258" key="GridCell.Tab.1.right/0.25.1344.815@0.25.1344.815" timestamp="1629569765988" />
-    <state x="-1451" y="65" key="SettingsEditor" timestamp="1629448407714">
+    <state x="-1451" y="65" key="SettingsEditor" timestamp="1631680086732">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state x="-1451" y="65" key="SettingsEditor/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1629448407714" />
+    <state x="-1451" y="65" key="SettingsEditor/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1631680086732" />
   </component>
 </project>

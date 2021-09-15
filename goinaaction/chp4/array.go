@@ -1,9 +1,9 @@
 /*
 @Author: Freshield
 @Contact: yangyufresh@163.com
-@File: main.py
-@Time: 2021-08-19 19:20
-@Last_update: 2021-08-19 19:20
+@File: array.py
+@Time: 2021-09-15 14:06
+@Last_update: 2021-09-15 14:06
 @Desc: None
 @==============================================@
 @      _____             _   _     _   _       @
@@ -15,18 +15,11 @@
 */
 package main
 
-import (
-	"log"
-	"os"
-	_ "a1_search_match/matchers"
-	"a1_search_match/search"
-
-)
-
-func init() {
-	log.SetOutput(os.Stdout)
-}
+import "fmt"
 
 func main() {
-	search.Run("president")
+	//var array [5]int
+	array := [5]int{10, 20, 30, 40, 50}
+	fmt.Println(array)
+
 }

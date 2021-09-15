@@ -1,9 +1,9 @@
 /*
 @Author: Freshield
 @Contact: yangyufresh@163.com
-@File: main.py
-@Time: 2021-08-19 19:20
-@Last_update: 2021-08-19 19:20
+@File: sql.py
+@Time: 2021-08-27 18:03
+@Last_update: 2021-08-27 18:03
 @Desc: None
 @==============================================@
 @      _____             _   _     _   _       @
@@ -16,17 +16,10 @@
 package main
 
 import (
-	"log"
-	"os"
-	_ "a1_search_match/matchers"
-	"a1_search_match/search"
-
+	"database/sql"
+	_ "github.com/goinaction/code/chapter3/dbdriver/postgres"
 )
 
-func init() {
-	log.SetOutput(os.Stdout)
-}
-
 func main() {
-	search.Run("president")
+	sql.Open("postgres", "mydb")
 }

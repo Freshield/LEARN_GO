@@ -1,9 +1,9 @@
 /*
 @Author: Freshield
 @Contact: yangyufresh@163.com
-@File: main.py
-@Time: 2021-08-19 19:20
-@Last_update: 2021-08-19 19:20
+@File: io_test.py
+@Time: 2021-08-27 20:30
+@Last_update: 2021-08-27 20:30
 @Desc: None
 @==============================================@
 @      _____             _   _     _   _       @
@@ -16,17 +16,22 @@
 package main
 
 import (
-	"log"
-	"os"
-	_ "a1_search_match/matchers"
-	"a1_search_match/search"
-
+	"fmt"
+	"github.com/goinaction/code/chapter3/words"
+	"io/ioutil"
 )
 
-func init() {
-	log.SetOutput(os.Stdout)
-}
-
 func main() {
-	search.Run("president")
+	filename := "sql.go"
+
+	contents, err := ioutil.ReadFile(filename)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	text := string(contents)
+
+	count := words.CountWords(text)
+	fmt.Printf("There are %d words in your text. \n", count)
 }
