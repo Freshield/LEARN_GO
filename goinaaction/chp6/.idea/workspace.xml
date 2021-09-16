@@ -64,12 +64,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager" selected="Go Build.go build running.go">
-    <configuration name="go build atomic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build buffered.go">
+    <configuration name="go build buffered.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="chp6" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/atomic.go" />
+      <filePath value="$PROJECT_DIR$/buffered.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build buffered.go" />
         <item itemvalue="Go Build.go build running.go" />
         <item itemvalue="Go Build.go build tennix.go" />
         <item itemvalue="Go Build.go build mutex.go" />
         <item itemvalue="Go Build.go build shutdown.go" />
-        <item itemvalue="Go Build.go build atomic.go" />
       </list>
     </recent_temporary>
   </component>
