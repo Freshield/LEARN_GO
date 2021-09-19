@@ -63,16 +63,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager" selected="Go Build.go build runoob_channel.go">
-    <configuration name="go build chp7" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="chp7" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/pool_main.go" />
-      <package value="chp7" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build runoob_timeout.go">
     <configuration name="go build pool_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="chp7" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,6 +89,15 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build runoob_timeout.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="chp7" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/runoob_timeout.go" />
+      <package value="chp7" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build worker_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="chp7" />
       <working_directory value="$PROJECT_DIR$" />
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build runoob_timeout.go" />
         <item itemvalue="Go Build.go build runoob_channel.go" />
         <item itemvalue="Go Build.go build worker_main.go" />
         <item itemvalue="Go Build.go build runner_main.go" />
         <item itemvalue="Go Build.go build pool_main.go" />
-        <item itemvalue="Go Build.go build chp7" />
       </list>
     </recent_temporary>
   </component>
