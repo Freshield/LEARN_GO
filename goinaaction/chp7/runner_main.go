@@ -22,7 +22,7 @@ import (
 	"time"
 )
 
-const timeout = 3 * time.Second
+const timeout = 2 * time.Second
 
 func main() {
 	log.Println("Starting work.")

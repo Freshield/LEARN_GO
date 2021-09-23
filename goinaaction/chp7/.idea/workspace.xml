@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7a3b7541-1b2f-42fe-825c-25c17f3c498c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/runner.go" beforeDir="false" afterPath="$PROJECT_DIR$/runner/runner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner_main.go" beforeDir="false" afterPath="$PROJECT_DIR$/runner_main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager" selected="Go Build.go build pool_main.go">
+  <component name="RunManager" selected="Go Build.go build worker_main.go">
     <configuration name="go build chp7" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="chp7" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,11 +91,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build worker_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="chp7" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/worker_main.go" />
+      <package value="chp7" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build worker_main.go" />
+        <item itemvalue="Go Build.go build runner_main.go" />
         <item itemvalue="Go Build.go build pool_main.go" />
         <item itemvalue="Go Build.go build chp7" />
-        <item itemvalue="Go Build.go build runner_main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -111,27 +123,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1632318567626">
+    <state width="1878" height="383" key="GridCell.Tab.0.bottom" timestamp="1632381980057">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632318567626" />
-    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1632318567625">
+    <state width="1878" height="383" key="GridCell.Tab.0.bottom/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632381980057" />
+    <state width="1878" height="383" key="GridCell.Tab.0.center" timestamp="1632381980057">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.center/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632318567625" />
-    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1632318567624">
+    <state width="1878" height="383" key="GridCell.Tab.0.center/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632381980057" />
+    <state width="1878" height="383" key="GridCell.Tab.0.left" timestamp="1632381980056">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.left/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632318567624" />
-    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1632318567625">
+    <state width="1878" height="383" key="GridCell.Tab.0.left/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632381980056" />
+    <state width="1878" height="383" key="GridCell.Tab.0.right" timestamp="1632381980057">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.right/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632318567625" />
+    <state width="1878" height="383" key="GridCell.Tab.0.right/-1920.-98.1920.1055/0.25.1344.815/-3072.-534.1152.2023@-1920.-98.1920.1055" timestamp="1632381980057" />
     <state x="-1451" y="65" key="SettingsEditor" timestamp="1632300553523">
       <screen x="-1920" y="-98" width="1920" height="1055" />
     </state>

@@ -17,6 +17,7 @@ package runner
 
 import (
 	"errors"
+	"log"
 	"os"
 	"os/signal"
 	"time"
@@ -66,11 +67,15 @@ func (r *Runner) Start() error {
 
 func (r *Runner) run() error {
 	for id, task := range r.tasks {
+		log.Println("begin", id)
 		if r.gotInterrupt() {
+			log.Println("got interrupt", id)
 			return ErrInterrupt
 		}
+		log.Println("after check", id)
 
 		task(id)
+		log.Println("done task", id)
 	}
 
 	return nil
